@@ -1,0 +1,1262 @@
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "VT323", monospace;
+  color: white;
+}
+body {
+  background-color: black; 
+  font-family: "VT323", monospace;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+} 
+span {
+  font-family: "VT323", monospace;
+  color: #FFCA37  ;
+}
+p {
+  font-family: "VT323", monospace;
+  color: white;
+}
+
+.then_type {
+  font-family: "VT323", monospace;
+  color: #FFCA37;
+  font-size: 20pt;
+  background-color: #FF7637;
+  border-radius: 30%;
+  margin: 20px;
+}
+
+.macbook_header {
+  font-family: "VT323", monospace;
+  color: white;
+  background-color: #2D3B40; 
+  text-align: center; 
+}
+
+.macbook_description {
+  font-family: "VT323", monospace;
+  color: white;
+  text-align: center; 
+}
+
+.macbook_type {
+  font-family: "VT323", monospace;
+  color: white;
+  background-color: #2D3B40;
+  font-size: 12pt;  
+  max-width: 300px;
+  text-align: center;
+}
+
+.computer_header {
+  font-family: "VT323", monospace;
+  color: white;
+  background-color: #FF84A6; 
+  text-align: center; 
+}
+
+.computer_description {
+  font-family: "VT323", monospace;
+  color: white;
+  text-align: center; 
+}
+
+.computer2_header {
+  font-family: "VT323", monospace;
+  color: white;
+  background-color: #7AACBF; 
+  text-align: center; 
+}
+
+.computer2_description {
+  font-family: "VT323", monospace;
+  color: white;
+  text-align: center; 
+}
+
+h3 {
+  color: #FF84A6;
+}
+/* 
+p:hover:before{
+  content: "Reply!";
+  color: black;
+  content-visibility: 0;
+}
+p:hover:after{
+  content: "ok!";
+  color: black;
+  content-visibility: 0;
+}
+*/
+
+/* HELP i want to make it click instead of hover */
+
+nav .comment2{
+  display: none;
+  color:  #7AACBF;
+}
+
+nav:hover .comment2 {
+  display: inline;
+}
+
+nav .comment{
+  display: none;
+}
+
+nav:hover .replies {
+  display: none;
+}
+
+nav:hover .comment {
+  display: inline;
+}
+section{
+  background-image: url(https://cdn.discordapp.com/attachments/757716444329803858/1214079885388029963/IMG_0424.png?ex=65f7cf01&is=65e55a01&hm=19dc48b5f26750d02748a4e87c00decb6850d5c7b9c6379e0d23e288d6d0b6a3&);
+/* add baclground image */
+}
+
+#loading {
+  z-index: 2;
+}
+
+#playbutton img:hover {
+  color: brown;
+}
+
+.play-delay {
+  width: 100%;
+  height: auto;
+  animation: play 5s steps(1) forwards; /* Adjust the duration to match your GIF duration */
+  animation-delay: 11s; /* Set the delay to 5 seconds */
+}
+
+@keyframes play {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(100%);
+      opacity: 0; /* Add opacity property to make it disappear */
+  }
+}
+
+.star1{
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+
+}
+
+.star1:hover {
+  transform:scale(2);
+  transform: rotate(30deg);
+  transition-duration: 2s;
+}
+
+.star2{
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+
+}
+
+.star2:hover {
+  transform:scale(2);
+  transform: rotate(30deg);
+  transition-duration: 2s;
+}
+
+.star3{
+  width: 100px;
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+
+}
+
+.star3:hover {
+  transform:scale(2);
+  transform: rotate(30deg);
+  transition-duration: 2s;
+}
+
+.computerclick {
+  font-family: "VT323", monospace;
+  color: white;
+  width: 300px;
+  border-radius: 0%;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  background-color: black;
+}
+
+.computerclick1:hover {
+  color: #FF84A6;
+}
+
+.computerclick2:hover {
+  color: #5A7E8C;
+}
+
+.warning{
+  width: 100px;
+  position: absolute;
+  top: 1000px;
+  left: 0px;
+
+}
+
+.warning:hover {
+  transform:scale(1);
+  transition-duration: 2s;
+}
+
+.warning2{
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 1200px;
+
+}
+
+.warning2:hover {
+  transform:scale(1);
+  transition-duration: 2s;
+}
+img {
+  padding: 10px; 
+}
+.background {
+  max-width: 100%;
+  max-height: auto;
+  position: fixed;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.discordapp.com/attachments/757716444329803858/1214415138950479953/thenbg.gif?ex=65f9073b&is=65e6923b&hm=4ee3b78f3cba42a3d188f2692ddea4b1e1d2d484e54d2741c85853c14732fc89&");
+}
+
+.journalbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.journal_1 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.journal_2 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.journal_3 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.journal_4 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.journal_5 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.journal_6 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.journal_7 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.journal_8 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.journal_9 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.journal_10 {
+  background-color: #ADCCD9;
+  border: 1px #ADCCD9;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.thenbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* HELP */
+.thenbox:hover {
+  color: yellow;
+}
+.thenbox img:hover {
+  -webkit-animation: rotation 2s infinite linear;
+  animation-iteration-count: infinite;
+}
+/* 
+img {
+  -webkit-animation: rotation 2s infinite linear;
+  animation-iteration-count: infinite;
+}=*/
+
+@-webkit-keyframes rotation { 
+  0% {
+    -webkit-transform: rotate(30deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  50%{
+    -webkit-transform: rotate(-30deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(30deg);
+  }
+}
+
+.then_1 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_2 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_3 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_4 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_5 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_6 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_7 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_8 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_9 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_10 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_11 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_12 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_13 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_14 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_15 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_16 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_17 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_18 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_19 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_20 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_21 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_22 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_23 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_24 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_25 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_26 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_27 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_28 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_29 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_30 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_31 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_32 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_33 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_34 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_35 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.then_36 {
+  background-color: #FF84A6;
+  border: 1px #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.nowbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* HELP */
+.nowbox:hover {
+  color: yellow;
+}
+.nowbox img:hover {
+  -webkit-animation: rotation 2s infinite linear;
+  animation-iteration-count: infinite;
+}
+
+.now_1 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_2 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_3 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_4 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_5 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_6 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_7 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_8 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_9 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_10 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_11 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_12 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_13 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_14 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_15 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_16 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_17 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_18 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_19 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_20 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_21 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_22 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_23 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_24 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_25 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_26 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_27 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_28 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_29 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_30 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_31 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_32 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_33 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_34 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_35 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_36 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_37 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_38 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_39 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_40 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_41 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_42 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_43 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+.now_44 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+
+}
+
+.background2 {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.discordapp.com/attachments/757716444329803858/1214415138950479953/thenbg.gif?ex=65f9073b&is=65e6923b&hm=4ee3b78f3cba42a3d188f2692ddea4b1e1d2d484e54d2741c85853c14732fc89&");
+}
+
+.mackbookbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mac_1 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_2 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_3 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_4 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_5 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_6 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_7 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_8 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_9 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_10 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_11 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_12 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_13 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_14 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_15 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_16 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_17 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_18 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_19 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_20 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_21 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_22 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_23 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_24 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_25 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_26 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_27 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+.mac_28 {
+  background-color: #2D3B40;
+  border: 1px #2D3B40;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.audiodescription1 {
+  color: white;
+  background-color: #FF84A6;
+  font-size: 16pt;
+}
+
+.audiodescription2 {
+  color: #FFBD91;
+  background-color: #FF84A6;
+  font-size: 12pt;
+}
+.audiostyle {
+  background-color: #FF7637;
+  border: 1px #FF7637;
+  margin: 5px;
+  border-radius: 60px;
+}
+.thenaudiobox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.thenaudio_1 {
+  background-color: #FF84A6;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 60px;
+  margin: 5px;
+}
+.thenaudio_2 {
+  background-color: #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 60px;
+}
+.thenaudio_3 {
+  background-color: #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 60px;
+}
+.thenaudio_4 {
+  background-color: #FF84A6;
+  margin: 5px;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 60px;
+}
+
+footer {
+  top: 500px;
+  left: 500px;
+}
+
+/* HELP moving the footer to the right bottom corner*/
