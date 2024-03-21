@@ -125,11 +125,38 @@ section{
 }
 
 #loading {
+  position: absolute;
+  top: 5%; 
   z-index: 2;
 }
 
-#playbutton img:hover {
-  color: brown;
+#playbutton {
+  width: 50%; 
+  position: absolute;
+  top: 20%; 
+  left: 5%; 
+  z-index: 0; 
+  opacity: 0;
+  animation-name: button;
+  animation-delay: 11s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  z-index: 4;
+}
+
+@keyframes button {
+ from {
+  top: 20%; 
+  left: 5%; 
+    opacity: 0;
+  }
+
+ to {
+  top: 20%; 
+  left: 5%; 
+    opacity: 1;
+  }
+  
 }
 
 .play-delay {
@@ -149,11 +176,38 @@ section{
   }
 }
 
-.star1{
-  width: 100px;
-  position: absolute;
+.phone{
+  width: 400px;
+  position: fixed;
+  top: 550px;
+  left: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.phone:hover {
+  transform:scale(1.3);
+  transition-duration: 3s;
+}
+
+.art{
+  width: 300px;
+  position: fixed;
   top: 150px;
   left: 100px;
+}
+
+.art:hover {
+  transform:scale(1.3);
+  transition-duration: 3s;
+}
+
+
+.star1{
+  width: 100px;
+  position: fixed;
+  top: 100px;
+  left: 200px;
 
 }
 
@@ -165,9 +219,9 @@ section{
 
 .star2{
   width: 100px;
-  position: absolute;
+  position: fixed;
   top: 100px;
-  left: 500px;
+  left: 700px;
 
 }
 
@@ -179,8 +233,8 @@ section{
 
 .star3{
   width: 100px;
-  position: absolute;
-  top: 300px;
+  position: fixed;
+  top: 50px;
   left: 1000px;
 
 }
@@ -191,31 +245,50 @@ section{
   transition-duration: 2s;
 }
 
-.computerclick {
+.computerclick1 {
   font-family: "VT323", monospace;
   color: white;
-  width: 300px;
-  border-radius: 0%;
-  position: absolute;
-  top: 150px;
-  left: 100px;
-  background-color: black;
+  width: 150px;
+  text-align: center;
+  border-radius: 25%;
+  position: fixed;
+  bottom: 400px;
+  left: 650px;
 }
+
+.computerclick2 {
+  font-family: "VT323", monospace;
+  color: white;
+  width: 150px;
+  text-align: center;
+  border-radius: 25%;
+  position: fixed;
+  bottom: 500px;
+  left: 600px;
+}
+
 
 .computerclick1:hover {
   color: #FF84A6;
+  transform:scale(1);
 }
 
 .computerclick2:hover {
-  color: #5A7E8C;
+  color: #ADCCD9;
+  transform:scale(1);
+}
+
+.timeskip{
+  position: fixed;
+  bottom: 0px;
+  left: 1200px;
 }
 
 .warning{
   width: 100px;
-  position: absolute;
-  top: 1000px;
+  position: fixed;
+  top: 0px;
   left: 0px;
-
 }
 
 .warning:hover {
@@ -1254,9 +1327,132 @@ img {
   border-radius: 60px;
 }
 
+.end {
+  top: 750px;
+  left: 1250px;
+  position: fixed;
+}
+
 footer {
   top: 500px;
   left: 500px;
+}
+
+.words1 {
+  width: 2px;
+  top: 500px;
+  left: 0px;
+  position: fixed;
+}
+.words2 {
+  width: 2px;
+  top: 550px;
+  left: 0px;
+  position: fixed;
+}
+.words3 {
+  width: 2px;
+  top: 620px;
+  left: 0px;
+  position: fixed;
+}
+.words4 {
+  width: 200px;
+  top: 50px; 
+  left: 50px;
+  position: fixed;
+  color: #5A7E8C;
+}
+.words5 {
+  width: 100px;
+  top: 180px; 
+  left: 30px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words6 {
+  width: 10px;
+  top: 200px; 
+  left: 1220px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words7 {
+  width: 10px;
+  top: 350px; 
+  left: 1230px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words8 {
+  width: 100px;
+  top: 430px; 
+  left: 1230px;
+  position: fixed;
+  color: #5A7E8C;
+}
+.words9 {
+  width: 10px;
+  top: 350px; 
+  left: 1280px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words10 {
+  width: 10px;
+  top: 400px; 
+  left: 1290px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words11 {
+  width: 10px;
+  top: 200px; 
+  left: 1400px;
+  position: fixed;
+  color: #5A7E8C;
+}
+.words12 {
+  width: 10px;
+  top: 380px; 
+  left: 1400px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words13 {
+  width: 10px;
+  top: 450px; 
+  left: 1400px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words14 {
+  width: 10px;
+  top: 470px; 
+  left: 1390px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words15 {
+  width: 200px;
+  top: 500px; 
+  left: 1250px;
+  position: fixed;
+  color: #2D3B40;
+}
+.words16 {
+  width: 200px;
+  top: 520px; 
+  left: 1270px;
+  position: fixed;
+  color: #5A7E8C;
+}
+.words17 {
+  width: 200px;
+  top: 600px; 
+  left: 1250px;
+  position: fixed;
+  color: #2D3B40;
 }
 
 /* HELP moving the footer to the right bottom corner*/
